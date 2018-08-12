@@ -62,7 +62,7 @@ class Home extends React.Component<DefaultProps, HomeState> {
           <div className="home-container">
             <div className="tagline">
               <h1>Surveys, Decentralized & Incentivised!</h1>
-              <img src={parallelo} alt={'ETHSurvey'} />
+              <img src={parallelo} alt={'DecentralizedSurvey'} />
             </div>
             <div className="action-container">
               <Link to="/create">

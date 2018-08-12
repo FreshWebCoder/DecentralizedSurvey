@@ -17,7 +17,7 @@ module.exports = (env, argv) => {
     context: path.join(__dirname, "src"),
     entry: "./index.tsx",
     output: {
-      filename: "ethsurvey.js",
+      filename: "decentralizedsurvey.js",
       path: path.join(__dirname, "public/"),
       publicPath: "/"
     },
@@ -46,10 +46,10 @@ module.exports = (env, argv) => {
             transpileOnly: true,
             getCustomTransformers: () => ({
               before: [tsImportPluginFactory({
-                  libraryName: "antd",
-                  libraryDirectory: "lib",
-                  style: true
-                }
+                libraryName: "antd",
+                libraryDirectory: "lib",
+                style: true
+              }
               )]
             }),
             compilerOptions: {

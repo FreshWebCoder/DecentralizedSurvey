@@ -24,7 +24,7 @@ class Header extends React.Component<HeaderProps, {}> {
       <AntDHeader>
         <Link to={'/'}>
           <div className="logo">
-            <img alt={'ETHSurvey Logo'} src={logo} /> ETHSurvey
+            <img alt={'Logo'} src={logo} /> DecentralizedSurvey
           </div>
         </Link>
 

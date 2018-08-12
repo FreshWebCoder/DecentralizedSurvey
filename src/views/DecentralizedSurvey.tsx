@@ -21,11 +21,11 @@ const mapStateToProps = (state: RootState) => {
   return { ...state };
 };
 
-interface EthSurveyProps extends RootState {
+interface DecentralizedSurveyProps extends RootState {
   initWeb3: () => {};
 }
 
-class EthSurvey extends React.Component<EthSurveyProps> {
+class DecentralizedSurvey extends React.Component<DecentralizedSurveyProps> {
   componentDidMount() {
     this.props.initWeb3();
   }
@@ -56,4 +56,4 @@ export default connect<{}>(
   {
     initWeb3: Web3Actions.InitWeb3
   }
-)(EthSurvey);
+)(DecentralizedSurvey);

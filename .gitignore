@@ -56,8 +56,8 @@ node_modules/
 
 # production
 build/
-public/ethsurvey.js
-public/ethsurvey.js.map
+public/decentralizedsurvey.js
+public/decentralizedsurvey.js.map
 
 # misc
 .DS_Store
