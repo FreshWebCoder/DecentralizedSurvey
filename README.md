@@ -18,5 +18,3 @@ $ npm -g install ganache-cli
 ```
 $ npm run start
 ```
-
-## Screenshots
